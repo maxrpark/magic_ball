@@ -1,9 +1,9 @@
+import * as THREE from "three";
+import { useHelper } from "@react-three/drei";
 import MagicBall from "./components/MagicBall";
 import { Suspense, useRef, useState } from "react";
 import LabelText from "./components/LabelText";
 import { magicBallPhrases } from "./utils";
-import * as THREE from "three";
-import { useHelper } from "@react-three/drei";
 
 interface Props {
   selectedColor: string;

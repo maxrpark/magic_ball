@@ -28,8 +28,6 @@ const ColorPicker: React.FC<Props> = ({
       gsap.to(wrapper.current, {
         width: 500,
         padding: "1rem 2rem",
-
-        // duration: 1,
       });
     }
   };

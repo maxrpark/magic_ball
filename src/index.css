@@ -30,6 +30,7 @@ body,
   overflow: hidden;
   max-width: 300px;
   border: 2px solid steelblue;
+  width: "42px";
 }
 
 .single-color {
