@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100vh;
+  background: steelblue;
+  overflow: hidden;
+}
+
+.color-picker-container {
+  background-color: #e2e8dd;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  overflow: hidden;
+  max-width: 300px;
+  border: 2px solid steelblue;
+}
+
+.single-color {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid steelblue;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.is-selected {
+  transform: scale(1.2);
+}

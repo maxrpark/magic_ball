@@ -1,0 +1,21 @@
+export const colors = ["blue", "red", "yellow", "white", "black"];
+export const magicBallPhrases = [
+  "Yes",
+  "No",
+  "It is certain",
+  "Without a doubt",
+  "Ask again later",
+  "Cannot predict now",
+  "Most likely",
+  "Signs point to yes",
+  "Reply hazy, try again",
+  "My sources say no",
+  "Outlook not so good",
+  "Very doubtful",
+  "You may rely on it",
+  "As I see it, yes",
+  "Don't count on it",
+  "Yes, definitely",
+  "My reply is no",
+  "It is decidedly so",
+];
